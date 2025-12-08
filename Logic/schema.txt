@@ -1,0 +1,22 @@
+D_In:
+Enable:
+(not Lock) or (not clock and !=2)
+
+Data:
+(Lock and =3) or (D_Out and (not Lock))
+/* (Lock and =3) or ((not Lock and Btn) and not D_Out) */
+
+---
+
+D_Out:
+Enable:
+Clock or (not Lock and Btn)
+
+Data:
+(D_In and (not Lock)) or ((not D_Out) and (Btn and (not Lock))
+
+---
+
+LED:
+Pwr: D_Out
+
