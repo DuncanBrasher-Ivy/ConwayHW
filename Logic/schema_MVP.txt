@@ -1,19 +1,30 @@
+Vars:
+
+Clock
+Lock
+Btn
+=3
+!=2
+D_In
+D_Out
+
+--
+
 D_In:
 Enable:
-(not Lock) or (not clock and !=2)
+(Lock and (not Clock) and !=2) or ((not Lock) and Btn)
 
 Data:
-(Lock and =3) or (D_Out and (not Lock))
-/* (Lock and =3) or ((not Lock and Btn) and not D_Out) */
+(Lock and =3) or ((not Lock) and (not D_Out))
 
 ---
 
 D_Out:
 Enable:
-Clock or (not Lock and Btn)
+(Lock and Clock) or (not Lock and (not Btn))
 
 Data:
-(D_In and (not Lock)) or ((not D_Out) and (Btn and (not Lock))
+D_In
 
 ---
 
