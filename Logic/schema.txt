@@ -18,13 +18,13 @@ Enable:
 (Lock and (not Clock) and !=2) or ((not Lock) and Btn) or ((Row and Column) and Clock)
 
 Data:
-(((Lock and =3) or ((not Lock) and (not D_Out))) and (not (Row and Column))) or Set_D_In
+(((Lock and =3) or ((not Lock) and (not D_Out))) and (not (Row and Column))) or ((Row and Column) and Set_D_In)
 
 ---
 
 D_Out:
 Enable:
-((Lock and Clock) or (not Lock and (not Btn)) and (not (Row and Column))) or ((Row and Column) and (not Clock))
+((Lock and Clock) or (not Lock and (not Btn)) and (not (Row and Column))) or ((not Clock) and (Row and Column))
 
 Data:
 D_In

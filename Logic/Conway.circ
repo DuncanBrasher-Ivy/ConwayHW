@@ -72,9 +72,8 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="E3"/>
     </comp>
-    <comp lib="0" loc="(150,290)" name="Pin">
+    <comp lib="0" loc="(150,290)" name="Clock">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="Clock"/>
     </comp>
     <comp lib="0" loc="(150,430)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -109,6 +108,7 @@
     <comp lib="1" loc="(430,190)" name="AND Gate"/>
     <comp lib="1" loc="(450,260)" name="AND Gate"/>
     <comp lib="1" loc="(480,350)" name="OR Gate"/>
+    <comp lib="1" loc="(480,90)" name="AND Gate"/>
     <comp lib="1" loc="(510,260)" name="OR Gate"/>
     <comp lib="1" loc="(520,210)" name="NOT Gate"/>
     <comp lib="1" loc="(530,420)" name="AND Gate"/>
@@ -138,7 +138,7 @@
     <wire from="(150,240)" to="(210,240)"/>
     <wire from="(150,290)" to="(160,290)"/>
     <wire from="(150,430)" to="(180,430)"/>
-    <wire from="(150,70)" to="(530,70)"/>
+    <wire from="(150,70)" to="(430,70)"/>
     <wire from="(160,160)" to="(160,290)"/>
     <wire from="(160,160)" to="(270,160)"/>
     <wire from="(160,290)" to="(160,480)"/>
@@ -178,9 +178,11 @@
     <wire from="(260,320)" to="(390,320)"/>
     <wire from="(260,460)" to="(260,510)"/>
     <wire from="(260,460)" to="(280,460)"/>
-    <wire from="(260,50)" to="(260,100)"/>
+    <wire from="(260,50)" to="(260,90)"/>
     <wire from="(260,50)" to="(600,50)"/>
     <wire from="(260,510)" to="(270,510)"/>
+    <wire from="(260,90)" to="(260,100)"/>
+    <wire from="(260,90)" to="(410,90)"/>
     <wire from="(270,140)" to="(270,160)"/>
     <wire from="(270,420)" to="(270,430)"/>
     <wire from="(270,420)" to="(280,420)"/>
@@ -208,6 +210,8 @@
     <wire from="(390,280)" to="(390,320)"/>
     <wire from="(390,280)" to="(400,280)"/>
     <wire from="(390,530)" to="(550,530)"/>
+    <wire from="(410,110)" to="(430,110)"/>
+    <wire from="(410,90)" to="(410,110)"/>
     <wire from="(420,370)" to="(430,370)"/>
     <wire from="(430,190)" to="(460,190)"/>
     <wire from="(440,400)" to="(440,480)"/>
@@ -220,6 +224,7 @@
     <wire from="(480,350)" to="(480,370)"/>
     <wire from="(480,370)" to="(510,370)"/>
     <wire from="(480,440)" to="(480,490)"/>
+    <wire from="(480,90)" to="(530,90)"/>
     <wire from="(490,280)" to="(490,330)"/>
     <wire from="(490,280)" to="(540,280)"/>
     <wire from="(490,330)" to="(510,330)"/>
@@ -231,7 +236,7 @@
     <wire from="(530,250)" to="(580,250)"/>
     <wire from="(530,400)" to="(530,420)"/>
     <wire from="(530,400)" to="(550,400)"/>
-    <wire from="(530,70)" to="(530,250)"/>
+    <wire from="(530,90)" to="(530,250)"/>
     <wire from="(540,140)" to="(540,210)"/>
     <wire from="(540,210)" to="(680,210)"/>
     <wire from="(540,270)" to="(540,280)"/>
