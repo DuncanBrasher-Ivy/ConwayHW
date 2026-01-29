@@ -64,9 +64,8 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="E3"/>
     </comp>
-    <comp lib="0" loc="(150,290)" name="Pin">
+    <comp lib="0" loc="(150,290)" name="Clock">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="Clock"/>
     </comp>
     <comp lib="0" loc="(150,430)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -90,9 +89,6 @@
     <comp lib="1" loc="(450,260)" name="AND Gate"/>
     <comp lib="1" loc="(510,240)" name="OR Gate"/>
     <comp lib="1" loc="(530,420)" name="AND Gate"/>
-    <comp lib="1" loc="(540,180)" name="NOT Gate">
-      <a name="facing" val="west"/>
-    </comp>
     <comp lib="1" loc="(600,420)" name="OR Gate"/>
     <comp lib="4" loc="(520,320)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
@@ -151,8 +147,8 @@
     <wire from="(330,390)" to="(370,390)"/>
     <wire from="(350,270)" to="(350,350)"/>
     <wire from="(350,350)" to="(370,350)"/>
-    <wire from="(380,140)" to="(380,170)"/>
-    <wire from="(380,140)" to="(540,140)"/>
+    <wire from="(380,150)" to="(380,170)"/>
+    <wire from="(380,150)" to="(540,150)"/>
     <wire from="(390,280)" to="(390,320)"/>
     <wire from="(390,280)" to="(400,280)"/>
     <wire from="(390,530)" to="(550,530)"/>
@@ -166,13 +162,15 @@
     <wire from="(510,240)" to="(510,330)"/>
     <wire from="(530,400)" to="(530,420)"/>
     <wire from="(530,400)" to="(550,400)"/>
-    <wire from="(540,140)" to="(540,180)"/>
+    <wire from="(540,150)" to="(540,280)"/>
+    <wire from="(540,280)" to="(680,280)"/>
     <wire from="(550,440)" to="(550,530)"/>
-    <wire from="(570,180)" to="(690,180)"/>
     <wire from="(570,330)" to="(610,330)"/>
     <wire from="(600,370)" to="(600,420)"/>
     <wire from="(600,370)" to="(610,370)"/>
     <wire from="(670,330)" to="(690,330)"/>
+    <wire from="(670,370)" to="(680,370)"/>
+    <wire from="(680,280)" to="(680,370)"/>
     <wire from="(690,180)" to="(690,330)"/>
     <wire from="(690,180)" to="(710,180)"/>
     <wire from="(690,330)" to="(710,330)"/>
