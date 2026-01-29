@@ -112,9 +112,6 @@
     <comp lib="1" loc="(510,260)" name="OR Gate"/>
     <comp lib="1" loc="(520,210)" name="NOT Gate"/>
     <comp lib="1" loc="(530,420)" name="AND Gate"/>
-    <comp lib="1" loc="(540,180)" name="NOT Gate">
-      <a name="facing" val="west"/>
-    </comp>
     <comp lib="1" loc="(570,290)" name="AND Gate"/>
     <comp lib="1" loc="(600,420)" name="OR Gate"/>
     <comp lib="1" loc="(630,270)" name="OR Gate"/>
@@ -235,11 +232,11 @@
     <wire from="(530,400)" to="(530,420)"/>
     <wire from="(530,400)" to="(550,400)"/>
     <wire from="(530,70)" to="(530,250)"/>
-    <wire from="(540,140)" to="(540,180)"/>
+    <wire from="(540,140)" to="(540,210)"/>
+    <wire from="(540,210)" to="(680,210)"/>
     <wire from="(540,270)" to="(540,280)"/>
     <wire from="(540,270)" to="(630,270)"/>
     <wire from="(550,440)" to="(550,530)"/>
-    <wire from="(570,180)" to="(640,180)"/>
     <wire from="(570,290)" to="(580,290)"/>
     <wire from="(570,330)" to="(610,330)"/>
     <wire from="(570,520)" to="(570,560)"/>
@@ -260,6 +257,8 @@
     <wire from="(640,180)" to="(690,180)"/>
     <wire from="(640,230)" to="(640,290)"/>
     <wire from="(670,330)" to="(690,330)"/>
+    <wire from="(670,370)" to="(680,370)"/>
+    <wire from="(680,210)" to="(680,370)"/>
     <wire from="(680,450)" to="(680,490)"/>
     <wire from="(690,180)" to="(690,330)"/>
     <wire from="(690,180)" to="(710,180)"/>
