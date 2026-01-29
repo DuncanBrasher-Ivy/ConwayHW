@@ -84,6 +84,12 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Set_D_In"/>
     </comp>
+    <comp lib="0" loc="(710,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Read_D_Out"/>
+      <a name="type" val="output"/>
+    </comp>
     <comp lib="0" loc="(710,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -114,6 +120,7 @@
     <comp lib="1" loc="(630,270)" name="OR Gate"/>
     <comp lib="1" loc="(630,540)" name="AND Gate"/>
     <comp lib="1" loc="(680,450)" name="AND Gate"/>
+    <comp lib="1" loc="(700,120)" name="AND Gate"/>
     <comp lib="1" loc="(730,510)" name="OR Gate"/>
     <comp lib="4" loc="(520,320)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
@@ -174,6 +181,8 @@
     <wire from="(260,320)" to="(390,320)"/>
     <wire from="(260,460)" to="(260,510)"/>
     <wire from="(260,460)" to="(280,460)"/>
+    <wire from="(260,50)" to="(260,100)"/>
+    <wire from="(260,50)" to="(600,50)"/>
     <wire from="(260,510)" to="(270,510)"/>
     <wire from="(270,140)" to="(270,160)"/>
     <wire from="(270,420)" to="(270,430)"/>
@@ -230,26 +239,32 @@
     <wire from="(540,270)" to="(540,280)"/>
     <wire from="(540,270)" to="(630,270)"/>
     <wire from="(550,440)" to="(550,530)"/>
-    <wire from="(570,180)" to="(690,180)"/>
+    <wire from="(570,180)" to="(640,180)"/>
     <wire from="(570,290)" to="(580,290)"/>
     <wire from="(570,330)" to="(610,330)"/>
     <wire from="(570,520)" to="(570,560)"/>
     <wire from="(570,520)" to="(580,520)"/>
     <wire from="(580,560)" to="(580,580)"/>
+    <wire from="(600,100)" to="(650,100)"/>
     <wire from="(600,420)" to="(600,470)"/>
     <wire from="(600,470)" to="(630,470)"/>
+    <wire from="(600,50)" to="(600,100)"/>
     <wire from="(610,370)" to="(610,400)"/>
     <wire from="(610,400)" to="(740,400)"/>
     <wire from="(630,290)" to="(630,430)"/>
     <wire from="(630,290)" to="(640,290)"/>
     <wire from="(630,530)" to="(630,540)"/>
     <wire from="(630,530)" to="(680,530)"/>
+    <wire from="(640,140)" to="(640,180)"/>
+    <wire from="(640,140)" to="(650,140)"/>
+    <wire from="(640,180)" to="(690,180)"/>
     <wire from="(640,230)" to="(640,290)"/>
     <wire from="(670,330)" to="(690,330)"/>
     <wire from="(680,450)" to="(680,490)"/>
     <wire from="(690,180)" to="(690,330)"/>
     <wire from="(690,180)" to="(710,180)"/>
     <wire from="(690,330)" to="(710,330)"/>
+    <wire from="(700,120)" to="(710,120)"/>
     <wire from="(730,510)" to="(740,510)"/>
     <wire from="(740,400)" to="(740,510)"/>
   </circuit>

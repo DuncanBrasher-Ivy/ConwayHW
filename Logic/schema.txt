@@ -34,3 +34,8 @@ D_In
 LED:
 Pwr: D_Out
 
+---
+
+Read_D_Out:
+(Row and Column) and D_Out
+
