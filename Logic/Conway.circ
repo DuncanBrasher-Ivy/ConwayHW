@@ -56,6 +56,25 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect fill="none" height="130" stroke="#000000" width="220" x="50" y="50"/>
+      <visible-led height="10" path="/LED(500,110)" stroke-width="0" width="10" x="182" y="96"/>
+      <circ-anchor facing="east" x="270" y="60"/>
+      <circ-port dir="in" pin="150,100" x="50" y="90"/>
+      <circ-port dir="in" pin="150,160" x="50" y="100"/>
+      <circ-port dir="in" pin="150,240" x="50" y="50"/>
+      <circ-port dir="in" pin="150,260" x="160" y="50"/>
+      <circ-port dir="in" pin="150,300" x="270" y="50"/>
+      <circ-port dir="in" pin="150,320" x="50" y="120"/>
+      <circ-port dir="in" pin="150,360" x="270" y="120"/>
+      <circ-port dir="in" pin="150,380" x="50" y="180"/>
+      <circ-port dir="in" pin="150,420" x="160" y="180"/>
+      <circ-port dir="in" pin="150,440" x="270" y="180"/>
+      <circ-port dir="in" pin="150,60" x="50" y="70"/>
+      <circ-port dir="in" pin="150,80" x="50" y="80"/>
+      <circ-port dir="out" pin="490,60" x="270" y="70"/>
+      <circ-port dir="out" pin="490,80" x="270" y="80"/>
+    </appear>
     <comp lib="0" loc="(150,100)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Column"/>
