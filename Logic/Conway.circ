@@ -19,7 +19,7 @@
   <lib desc="#BFH-Praktika" name="10"/>
   <lib desc="#Input/Output-Extra" name="11"/>
   <lib desc="#Soc" name="12"/>
-  <main name="main"/>
+  <main name="conway_cell"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -52,9 +52,9 @@
     <tool lib="5" name="D Flip-Flop"/>
     <tool lib="5" name="Register"/>
   </toolbar>
-  <circuit name="main">
+  <circuit name="conway_cell">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="conway_cell"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <appear>
@@ -576,16 +576,16 @@
     <comp lib="6" loc="(4010,2340)" name="LED"/>
     <comp lib="6" loc="(4020,700)" name="LED"/>
     <comp lib="6" loc="(650,370)" name="LED"/>
-    <comp loc="(2280,1490)" name="main"/>
-    <comp loc="(2280,2300)" name="main"/>
-    <comp loc="(2280,680)" name="main"/>
-    <comp loc="(3150,1500)" name="main"/>
-    <comp loc="(3150,2310)" name="main"/>
-    <comp loc="(3150,690)" name="main"/>
-    <comp loc="(3950,1520)" name="main"/>
-    <comp loc="(3950,2320)" name="main"/>
-    <comp loc="(3960,680)" name="main"/>
-    <comp loc="(590,350)" name="main"/>
+    <comp loc="(2280,1490)" name="conway_cell"/>
+    <comp loc="(2280,2300)" name="conway_cell"/>
+    <comp loc="(2280,680)" name="conway_cell"/>
+    <comp loc="(3150,1500)" name="conway_cell"/>
+    <comp loc="(3150,2310)" name="conway_cell"/>
+    <comp loc="(3150,690)" name="conway_cell"/>
+    <comp loc="(3950,1520)" name="conway_cell"/>
+    <comp loc="(3950,2320)" name="conway_cell"/>
+    <comp loc="(3960,680)" name="conway_cell"/>
+    <comp loc="(590,350)" name="conway_cell"/>
     <wire from="(120,370)" to="(370,370)"/>
     <wire from="(160,350)" to="(370,350)"/>
     <wire from="(1720,1550)" to="(1880,1550)"/>
