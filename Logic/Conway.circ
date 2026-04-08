@@ -65,11 +65,14 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Column"/>
     </comp>
-    <comp lib="0" loc="(150,230)" name="Pin">
+    <comp lib="0" loc="(150,210)" name="Clock">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(150,250)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Lock"/>
     </comp>
-    <comp lib="0" loc="(150,250)" name="Pin">
+    <comp lib="0" loc="(150,270)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Btn"/>
     </comp>
@@ -167,8 +170,9 @@
     <comp loc="(610,350)" name="eq"/>
     <wire from="(150,110)" to="(250,110)"/>
     <wire from="(150,130)" to="(250,130)"/>
-    <wire from="(150,230)" to="(250,230)"/>
+    <wire from="(150,210)" to="(250,210)"/>
     <wire from="(150,250)" to="(250,250)"/>
+    <wire from="(150,270)" to="(250,270)"/>
     <wire from="(150,320)" to="(160,320)"/>
     <wire from="(150,340)" to="(160,340)"/>
     <wire from="(150,380)" to="(160,380)"/>
@@ -209,8 +213,8 @@
     <wire from="(240,190)" to="(250,190)"/>
     <wire from="(240,300)" to="(380,300)"/>
     <wire from="(250,150)" to="(370,150)"/>
-    <wire from="(250,210)" to="(510,210)"/>
-    <wire from="(250,270)" to="(770,270)"/>
+    <wire from="(250,230)" to="(510,230)"/>
+    <wire from="(250,290)" to="(770,290)"/>
     <wire from="(250,360)" to="(250,370)"/>
     <wire from="(250,410)" to="(250,430)"/>
     <wire from="(250,430)" to="(280,430)"/>
@@ -256,7 +260,7 @@
     <wire from="(480,110)" to="(490,110)"/>
     <wire from="(480,70)" to="(480,110)"/>
     <wire from="(480,70)" to="(490,70)"/>
-    <wire from="(510,210)" to="(510,250)"/>
+    <wire from="(510,230)" to="(510,250)"/>
     <wire from="(510,250)" to="(640,250)"/>
     <wire from="(520,170)" to="(520,230)"/>
     <wire from="(520,230)" to="(570,230)"/>
@@ -270,7 +274,7 @@
     <wire from="(680,200)" to="(690,200)"/>
     <wire from="(690,130)" to="(690,160)"/>
     <wire from="(750,160)" to="(770,160)"/>
-    <wire from="(770,160)" to="(770,270)"/>
+    <wire from="(770,160)" to="(770,290)"/>
   </circuit>
   <circuit name="inner_logic">
     <a name="appearance" val="logisim_evolution"/>
@@ -297,8 +301,9 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="E3"/>
     </comp>
-    <comp lib="0" loc="(150,290)" name="Clock">
+    <comp lib="0" loc="(150,290)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="Clock"/>
     </comp>
     <comp lib="0" loc="(150,430)" name="Pin">
       <a name="appearance" val="NewPins"/>
