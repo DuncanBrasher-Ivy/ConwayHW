@@ -1,0 +1,10 @@
+Read_D_Out = Row&&Column&&D_Out_Q
+State_Out = D_Out_Q
+
+D_Out_D = D_In_Q
+
+D_Out_E = !(Row&&Column)&&(Clock&&Lock||!Btn&&!Lock)||Row&&Column&&!Clock
+
+D_In_D = Row&&Column&&Set_D_In||!(Row&&Column)&&(D_Out_Q_Comp&&!Lock||E3&&Lock)
+D_In_E = NE2&&!Clock&&Lock||!Lock&&Btn||Row&&Column&&Clock
+
